@@ -1,0 +1,19 @@
+{
+  "name": "outdoors-web-site",
+  "version": "1.0.0",
+  "description": "Landin page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzoibox/Outdoors-web-site.git"
+  },
+  "author": "Anton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gonzoibox/Outdoors-web-site/issues"
+  },
+  "homepage": "https://github.com/gonzoibox/Outdoors-web-site#readme"
+}
