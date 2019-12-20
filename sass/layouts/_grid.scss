@@ -1,0 +1,26 @@
+.row {
+    color: #fff;
+    max-width: $grid-width;
+    background-color: #88dd;
+    margin: 0 auto;
+
+    @include clearfix;
+
+    &:not(:last-child) {
+        margin-bottom: $gutter-vertical;
+    }
+
+    // [class^="col-"] {
+
+    // }
+
+    .col-1-of-2 {
+        width: calc((100% - #{$gutter-horizontal}) / 2);
+        background-color: #e23030;
+        float: left;
+
+        &:not(:last-child) {
+           margin-right: $gutter-horizontal;
+        }  
+    }
+}
