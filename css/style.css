@@ -83,6 +83,9 @@ body {
 .u-center-text {
   text-align: center; }
 
+.u-margin-bottom-8 {
+  margin-bottom: 8rem; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -152,9 +155,7 @@ body {
     height: 3.5rem; }
 
 .row {
-  color: #fff;
   max-width: 114rem;
-  background-color: #88dd;
   margin: 0 auto; }
   .row::after {
     content: "";
@@ -163,8 +164,7 @@ body {
   .row:not(:last-child) {
     margin-bottom: 8rem; }
   .row [class^="col-"] {
-    float: left;
-    background-color: #e23030; }
+    float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
   .row .col-1-of-2 {
