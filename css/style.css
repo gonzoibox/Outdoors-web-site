@@ -1,3 +1,16 @@
+/*
+0-600px:phone
+600-900px:tablet portrait
+900-1200px:tablet landscape
+1200-1900px:normal styles
+1800px+:big desktop
+
+$breakpoint arguments choices:
+phone
+tab-port
+tab-land
+big-desk
+*/
 body {
   font-family: "Lato", sans-serif;
   line-height: 1.7;
@@ -58,6 +71,15 @@ body {
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56,25%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 80%; } }
 
 body {
   box-sizing: border-box; }
