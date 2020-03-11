@@ -77,7 +77,7 @@
         background-size: cover;
     }
 
-    @include respond(tab-land) {
+    @include respond(tab-port) {
         background-image: 
         linear-gradient(to right, 
         rgba($color-white, .9) 0%,

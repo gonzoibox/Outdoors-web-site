@@ -830,7 +830,7 @@ body {
   text-transform: uppercase;
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
   padding: 1rem 2rem;
-  background-size: 220%;
+  background-size: 270%;
   transition: all .4s; }
   .navigation__link:link span, .navigation__link:visited span {
     display: inline-block;
@@ -934,7 +934,7 @@ body {
     .book {
       background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-10.jpg);
       background-size: cover; } }
-  @media (max-width: 75em) {
+  @media (max-width: 56.25em) {
     .book {
       background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-10.jpg); } }
   .book__form {
